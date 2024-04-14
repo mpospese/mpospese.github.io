@@ -13,8 +13,9 @@
 			<guid>https://crazymilk.net/blog/trying-my-hand-at-a-static-website.html</guid>
 			<link>https://crazymilk.net/blog/trying-my-hand-at-a-static-website.html</link>
 			<description><![CDATA[
-				<h1><a href="trying-my-hand-at-a-static-website.html">Trying my Hand at a Static Website</a></h1>
 				<p>I've been using WordPress to run <a href="https://mpospese.com">my blog</a> since I started it in 2011. Initially I used WordPress dot com, but in 2018 I switched over to hosting a WordPress dot org site. Lately though I've gotten tired of all WordPress' cruft and have been longing for a much simpler static site.</p>
+				<p>Inspired by Louie Mantia Jr's <a href="https://lmnt.me/blog/how-to-make-a-damn-website.html">How to Make a Damn Website</a> post, here is my first post to the new site. I'm currently using GitHub Pages to host it because it's free and I'm not ready to attempt to port over 13 years of posts from my WordPress blog just yet.</p>
+				<p>Who knows? Maybe I'll even learn some HTML and CSS along the way. Fingers crossed.</p>
 			]]></description>
 		</item>
 
