@@ -1,0 +1,538 @@
+@layer config {
+  :root {
+    --gutter: clamp(3ch, 2.5vmax, 3.75ch);
+    --stack: clamp(1.25ex, 2.5vmax, 1.75ex);
+    --paragraph-indent: calc(var(--gutter) / 1.5);
+    --line-length: 66ch;
+    --page-padding-inline: calc((100vi - min(var(--line-length), 80vi)) / 2);
+    --page-padding-block: calc(var(--stack) * 2);
+    --landmark-hr-size: 2px;
+    --hr-size: 1px;
+    --landmark-hr-margin-block: calc(var(--stack) * 3);
+    --hr-margin-block: calc(var(--stack) * 2);
+    --underline: solid;
+    --font: "Verdana", system-ui, sans-serif;
+    --font-variant: "Verdana", system-ui, sans-serif;
+    --font-headline: "Cartridge", "Verdana", system-ui, sans-serif;
+    --font-mono: ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas,
+      Liberation Mono, monospace;
+    --font-size: clamp(95%, 80% + 0.5vi, 150%);
+    --leading: 1.475;
+    --pt-canon: clamp(1.25em, 1.116em + 1.31vi, 2em);
+    --pt-double-great-primer: clamp(1.125em, 0.983em + 1.012vi, 1.625em);
+    --pt-double-pica: clamp(1em, 0.85em + 0.714vi, 1.25em);
+    --pt-paragon: 1.166em;
+    --pt-english: 1.083em;
+    --pt-pica: 1em;
+    --pt-small-pica: 0.916em;
+    --pt-long-primer: 0.833em;
+    --pt-bourgeois: 0.75em;
+    
+    --accent: 218,41,28;
+    
+    font-family: var(--font);
+    font-size: var(--font-size);
+    line-height: var(--leading);
+    color-scheme: dark light;
+    accent-color: rgb(var(--accent));
+  }
+}
+
+@font-face {
+  font-family: "Cartridge";
+  src: url("/files/fonts/Cartridge-Regular.woff2") format("woff2"),
+    url("/files/fonts/Cartridge-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Cartridge";
+  src: url("/files/fonts/Cartridge-Bold.woff2") format("woff2"),
+    url("/files/fonts/Cartridge-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@layer resets {
+  *,
+*::before,
+*::after {
+    font-feature-settings: "kern";
+    -webkit-font-kerning: normal;
+            font-kerning: normal;
+    -moz-osx-font-smoothing: grayscale !important;
+    -webkit-font-smoothing: antialiased !important;
+    box-sizing: border-box;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@layer elements {
+  *::-moz-selection {
+    background: rgb(var(--accent));
+  }
+  *::selection {
+    background: rgb(var(--accent));
+  }
+
+  *:focus-visible {
+    outline: 2px solid currentcolor;
+    outline-offset: 2px;
+  }
+
+  *:disabled {
+    cursor: not-allowed;
+    border-style: groove;
+  }
+
+  *[readonly] {
+    border-style: dashed;
+    background: transparent;
+  }
+
+  :where(input:not([type="radio"], [type="checkbox"], [type="file"]), textarea, select) {
+    border: 1px inset;
+    border-radius: 0;
+    background: rgba(128, 128, 128, 0.05);
+  }
+
+  :where(kbd, fieldset, dd, nav a, figure img) {
+    border: 1px solid;
+  }
+  @media (forced-colors: none) {
+    :where(kbd, fieldset, dd, nav a, figure img) {
+      border-image-source: linear-gradient(-6deg, gray, rgba(128, 128, 128, 0.4), rgba(128, 128, 128, 0.4), gray);
+    }
+  }
+
+  :where(th, td) {
+    -webkit-border-after: 1px solid;
+            border-block-end: 1px solid;
+  }
+  @media (forced-colors: none) {
+    :where(th, td) {
+      border-image-source: linear-gradient(to right, gray, rgba(128, 128, 128, 0.6));
+    }
+  }
+
+  :where(pre) {
+    -webkit-border-start: var(--hr-size) solid;
+            border-inline-start: var(--hr-size) solid;
+  }
+  @media (forced-colors: none) {
+    :where(pre) {
+      border-image-source: linear-gradient(to bottom, rgb(var(--accent)), transparent);
+    }
+  }
+
+  :where(hr) {
+    block-size: 0;
+    margin-block: var(--hr-margin-block);
+    border: 0;
+    -webkit-border-after: 2px solid rgb(var(--accent));
+            border-block-end: 2px solid rgb(var(--accent));
+  }
+
+  @media (forced-colors: none) {
+    :where(kbd, fieldset, dd, nav a, figure img, th, td, hr, pre) {
+      border-image-slice: 1;
+    }
+  }
+  @media (forced-colors: none) and (hover: hover) {
+    :where(nav a:hover) {
+      border-image-source: linear-gradient(6deg, gray, rgba(128, 128, 128, 0.4), rgba(128, 128, 128, 0.4), gray);
+    }
+  }
+  :where(section + hr) {
+    border-block-end-width: var(--hr-size);
+  }
+
+  :where(header, section, main) + hr {
+    margin-block: var(--landmark-hr-margin-block);
+  }
+
+  :where(select, label, button, summary) {
+    cursor: pointer;
+  }
+
+  header {
+    border-bottom: 4px solid rgb(218,41,28);
+    margin-bottom: calc(var(--stack) * 1.5);
+    padding-bottom: calc(var(--stack) / 2);
+  }
+
+  footer {
+    border-top: 4px solid rgb(218,41,28);
+    margin-top: calc(var(--stack) * 1.5);
+    padding-top: calc(var(--stack) / 2);
+    font-size: 0.75em;
+  }
+  
+  :where(footer > *) {
+    opacity: 0.5;
+  }
+
+  body {
+    padding-top: calc(max(var(--page-padding-block), env(safe-area-inset-top)));
+    padding-left: calc(max(var(--page-padding-inline), env(safe-area-inset-left)));
+    padding-bottom: calc(max(var(--page-padding-block), env(safe-area-inset-bottom)));
+    padding-right: calc(max(var(--page-padding-inline), env(safe-area-inset-right)));
+  }
+
+  a {
+    text-decoration-color: color-mix(in srgb, currentColor 25%, transparent);
+    text-underline-offset: 0.125em;
+    text-decoration-thickness: calc(max(2px, 10%));
+  }
+
+  a:active {
+    text-decoration-color: rgba(var(--accent), 0.67);
+    transition: text-decoration-color 0.0625s;
+  }
+
+  a:hover {
+    text-decoration-color: rgb(var(--accent));
+  }
+
+  :where(header *:not(h1, h1 *, form, button)) {
+    opacity: 0.5;
+  }
+
+  :where(header *:not(h1, h2, h3, h4, h5, h6, h1 *, h2 *, h3 *, h4 *, h5 *, h6 *, form, button)) {
+    font-size: 0.875em;
+  }
+
+  :where(button, dd, th, td, kbd, select, input:not([type="radio"], [type="checkbox"]), textarea, nav
+      a) {
+    padding-block: calc(var(--stack) / 6);
+    padding-inline: calc(var(--gutter) / 3);
+  }
+
+  :where(th, td, caption, figcaption, pre code) {
+    padding-inline: calc(var(--gutter) / 2);
+  }
+
+  :where(th, td, caption, figcaption) {
+    padding-block: calc(var(--stack) / 2);
+  }
+
+  :where(pre code) {
+    padding-block: var(--stack);
+  }
+
+  :where(figure, dl, blockquote) {
+    -webkit-padding-before: calc(var(--stack) / 2.5);
+            padding-block-start: calc(var(--stack) / 2.5);
+  }
+
+  :where(details[open]) {
+    -webkit-padding-after: var(--stack);
+            padding-block-end: var(--stack);
+  }
+
+  :where(fieldset) {
+    padding-block: 0 var(--stack);
+    padding-inline: calc(var(--gutter) / 2);
+  }
+
+  :where(button) {
+    padding-inline: var(--gutter);
+  }
+
+  :where(*:not(p)
+      + p, figure, form, fieldset, pre, blockquote, ul, ol, dl, details, form
+      li
+      + li, nav) {
+    -webkit-margin-before: var(--stack);
+            margin-block-start: var(--stack);
+  }
+
+  :where(h1, h2, h3, h4, h5, h6, header nav) {
+    margin: 0.125em 0;
+  }
+
+  :where(h1, h2, h3, h4, h5, h6) + *:not(h1, h2, h3, h4, h5, h6, p) {
+    margin: 0.125em 0;
+  }
+
+  :where(li ol:first-of-type, li ul:first-of-type, nav ul) {
+    -webkit-margin-before: 0;
+            margin-block-start: 0;
+  }
+
+  :where(li li) {
+    -webkit-margin-start: 2ch;
+            margin-inline-start: 2ch;
+  }
+
+  :where(input, textarea, select) ~ * {
+    -webkit-margin-before: calc(var(--stack) / 4);
+            margin-block-start: calc(var(--stack) / 4);
+  }
+
+  :where(figure img) {
+    display: block;
+    margin-inline: auto;
+  }
+
+  :where(form ol, form ul) {
+    list-style: none;
+  }
+
+  :where(p) {
+    margin: 0.5em 0;
+    text-indent: 0;
+  }
+
+  :where(h1, h2, h3, h4, h5, h6) {
+    font-family: var(--font-headline);
+    line-height: 1.125;
+    letter-spacing: -0.02ch;
+    text-wrap: pretty;
+  }
+
+  :where(h1, h2, h3, h4) {
+    overflow-wrap: break-word;
+    -webkit-hyphens: auto;
+        -ms-hyphens: auto;
+            hyphens: auto;
+  }
+
+  :where(h1) {
+    font-size: var(--pt-canon);
+    text-transform: uppercase;
+  }
+
+  :where(h2) {
+    font-size: var(--pt-double-great-primer);
+  }
+
+  :where(h3) {
+    font-size: var(--pt-double-pica);
+  }
+
+  :where(h4, blockquote p) {
+    font-size: var(--pt-paragon);
+  }
+
+  :where(h5, big) {
+    font-size: var(--pt-english);
+  }
+
+  :where(h6, legend) {
+    font-size: var(--pt-pica);
+  }
+
+  :where(code, label, th, td) {
+    font-size: var(--pt-long-primer);
+  }
+
+  :where(small, kbd, figcaption, caption, sup, sub, input ~ *, textarea
+      ~ *, select ~ *) {
+    font-size: var(--pt-bourgeois);
+  }
+
+  :where(small, kbd, figcaption, label, legend, summary, caption, sup, sub, input
+      ~ *, textarea ~ *, select ~ *, nav a) {
+    font-family: var(--font-variant);
+    letter-spacing: 0;
+  }
+
+  :where(code) {
+    font-family: var(--font-mono);
+  }
+
+  :where(button, select, input, textarea, summary > *) {
+    font: inherit;
+    /* Reset font. */
+  }
+
+  :where(nav a) {
+    text-decoration: none;
+  }
+
+  :where(summary > *) {
+    display: inline;
+  }
+
+  :where(legend, summary, button) {
+    font-weight: bold;
+  }
+
+  :where(sup, sub) {
+    line-height: 1;
+  }
+
+  :where(figcaption, caption) {
+    text-align: center;
+  }
+
+  :where(th) {
+    text-align: start;
+  }
+
+  :where(th, td) {
+    vertical-align: baseline;
+  }
+
+  :where(figure) {
+    overflow-x: auto;
+  }
+
+  :where(img) {
+    block-size: auto;
+    max-inline-size: 100%;
+  }
+
+  :where(table) {
+    caption-side: bottom;
+    border-spacing: 0;
+  }
+
+  :where(tr > *:first-child) {
+    white-space: nowrap;
+  }
+
+  :where(kbd) {
+    padding-block: 1px 2px;
+    padding-inline: 0.5ch;
+    text-transform: uppercase;
+  }
+
+  :where(code) {
+    text-shadow: 0 0 3ex rgb(var(--accent));
+  }
+
+  :where(pre) {
+    display: block;
+    position: relative;
+    color: white;
+    white-space: -moz-pre-wrap;
+    white-space: -o-pre-wrap;
+    white-space: pre-wrap;
+    word-spacing: normal;
+    word-break: normal;
+    word-wrap: break-word;
+    background: black;
+  }
+
+  :where(pre)::after {
+    content: "";
+    position: absolute;
+    inset-block-end: 0;
+    inset-inline: 0;
+    z-index: 0;
+    block-size: var(--stack);
+    pointer-events: none;
+    background: linear-gradient(to bottom, transparent, black);
+  }
+
+  :where(pre code) {
+    display: block;
+    overflow: auto;
+    max-block-size: 60vh;
+    color-scheme: dark;
+    text-shadow: none;
+  }
+
+  :where(dl) {
+    display: grid;
+    grid-template-columns: auto minmax(75%, 1fr);
+    gap: calc(var(--gutter) / 2);
+    align-items: baseline;
+  }
+
+  :where(dd) {
+    block-size: 100%;
+  }
+
+  :where(input:not([type="checkbox"]):not([type="radio"]), select, textarea) {
+    display: block;
+    inline-size: 100%;
+  }
+
+  :where(input[type="radio"], input[type="checkbox"]) {
+    inline-size: 1.5ex;
+    block-size: 1.5ex;
+    vertical-align: baseline;
+  }
+
+  :where(input[type="file"]) {
+    padding-inline: 0;
+    border: 0;
+  }
+
+  ::-webkit-file-upload-button {
+    -webkit-appearance: button;
+            appearance: button;
+    cursor: pointer;
+    font: inherit;
+  }
+
+  :where(input[type="checkbox"], input[type="radio"]) {
+    vertical-align: middle;
+  }
+
+  :where(select) {
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    text-indent: 0.01px;
+    text-overflow: "";
+  }
+
+  :where(a) {
+    color: inherit;
+    -webkit-text-decoration-style: var(--underline);
+            text-decoration-style: var(--underline);
+    text-underline-offset: 0.3ex;
+  }
+
+  :where(abbr) {
+    cursor: help;
+  }
+
+  :where(abbr, dt) {
+    text-decoration: underline;
+    -webkit-text-decoration-style: dotted;
+            text-decoration-style: dotted;
+    text-underline-offset: 0.3ex;
+  }
+
+  :where(big) {
+    display: inline;
+  }
+
+  :where(blockquote q)::before {
+    position: absolute;
+    -webkit-margin-start: -1ex;
+            margin-inline-start: -1ex;
+  }
+
+  :where(blockquote q q)::before {
+    position: static;
+    -webkit-margin-start: unset;
+            margin-inline-start: unset;
+  }
+
+  :where(input:required + mark) {
+    display: none;
+    color: inherit;
+    background: transparent;
+  }
+
+  :where(input:required:invalid + mark) {
+    display: block;
+  }
+
+  :where(nav ul) {
+    display: flex;
+    gap: calc(var(--gutter) / 2);
+    flex-wrap: wrap;
+    list-style: none;
+  }
+}

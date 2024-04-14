@@ -1,23 +1,180 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-	<channel>
-		<title>Crazy Milk</title>
-		<link>https://crazymilk.net/</link>
-		<description>Mark Pospesel’s weblog.</description>
-		<language>en-us</language>
-		<atom:link href="https://crazymilk.net/feed.xml" rel="self" type="application/rss+xml" />
+  <channel>
+    <title>Crazy Milk</title>
+    <link>https://crazymilk.net/</link>
+    <description>Mark Pospesel’s weblog.</description>
+    <language>en-us</language>
+    <atom:link href="https://crazymilk.net/feed.xml" rel="self" type="application/rss+xml" />
 
-		<item>
-			<title>Trying my Hand at a Static Website</title>
-			<pubDate>Sun, 14 Apr 2024 13:41:00 GMT</pubDate>
-			<guid>https://crazymilk.net/blog/trying-my-hand-at-a-static-website.html</guid>
-			<link>https://crazymilk.net/blog/trying-my-hand-at-a-static-website.html</link>
-			<description><![CDATA[
-				<p>I've been using WordPress to run <a href="https://mpospese.com">my blog</a> since I started it in 2011. Initially I used WordPress dot com, but in 2018 I switched over to hosting a WordPress dot org site. Lately though I've gotten tired of all WordPress' cruft and have been longing for a much simpler static site.</p>
-				<p>Inspired by Louie Mantia Jr's <a href="https://lmnt.me/blog/how-to-make-a-damn-website.html">How to Make a Damn Website</a> post, here is my first post to the new site. I'm currently using GitHub Pages to host it because it's free and I'm not ready to attempt to port over 13 years of posts from my WordPress blog just yet.</p>
-				<p>Who knows? Maybe I'll even learn some HTML and CSS along the way. Fingers crossed.</p>
-			]]></description>
-		</item>
+    <item>
+      <title>Seven Years In Switzerland</title>
+      <pubDate>Fri, 2 Aug 2024 09:38:45 +0200</pubDate>
+      <guid>https://crazymilk.net/blog/seven-years-in-switzerland.html</guid>
+      <link>https://crazymilk.net/blog/seven-years-in-switzerland.html</link>
+      <description><![CDATA[
+      <img src="https://crazymilk.net/files/images/photos/seven-years-in-switzerland.webp" alt="View of a lake on a very misty day. The water is blue-green." width=960 height=540 loading="lazy" decoding="async" />
+      <p>Seven years ago today we arrived in Switzerland from Virginia. I try to write these posts annually to take stock and reflect on the previous year.</p>
+      <p>(Previous posts after <a href="https://mpospese.com/2018/08/02/a-year-in-switzerland/">one</a>, <a href="https://mpospese.com/2020/08/02/3-years-in-switzerland/">three</a>, <a href="https://mpospese.com/2021/08/02/4-years-in-switzerland/">four</a>, <a href="https://mpospese.com/2022/08/02/five-years-in-switzerland/">five</a>, and <a href="https://mpospese.com/2023/08/02/six-years-in-switzerland/">six</a> years in Switzerland.)</p>
+      <br>
+      <h2>The Past Year</h2>
+      <br>
+      <h3>Work</h3>
+      <p>Nine months ago I started a new role as a Senior iOS Engineer for PassiveLogic. I've traveled to Salt Lake City and Amsterdam twice each. The work is very advanced, and I'm still not over my impostor syndrome, but I am enjoying it. For the first time since moving to Switzerland, I am on a local Swiss contract, so I get the standard four weeks of vacation, local Canton Zug holidays, and payments towards a Swiss pension.</p>
+      <br>
+      <h3>Learning German</h3>
+      <p>Last Fall I took a test prep course for the Goethe B1 German exam. I passed the exam in December.</p>
+      <p>Last Fall and this Spring I attended a German conversation course that meets one day a week at a local school.</p>
+      <br>
+      <h3>Integration</h3>
+      <p>In April I applied for and received my <a href="https://crazymilk.net/blog/settling-in.html">settlement permit</a> (permanent residency).</p>
+      <p>Also in April I started playing D&amp;D in-person with a group of Swiss friends in Zürich. We meet every second or third weekend. (I've played a lot of D&amp;D over the past three years but almost entirely online.)</p>
+      <br>
+      <h3>Travel</h3>
+      <p>Internationally we visited Vienna, North Carolina, Boston, and London (apart from work trips). Within Switzerland we've visited Wengen, Mergoscia, Brienz, and Val Müstair.</p>
+      <p>I feel we've made fewer weekend trips over the past year, in part because our son is busier now with high school.</p>
+      <br>
+      <h3>Nature / Outdoors</h3>
+      <p>I continue walking locally in the Ägeri valley. In the winter I snowshoe. When it's hot I go out on the lake on my standup paddle board.</p>
+      <p>I didn't do any big day hikes in the past year, and I struggled to exercise regularly. I should have hiked, snowshoed, and paddled more often.</p>
+      <br>
+      <h2>Last Year's Goals</h2>
+      <p>So how did I do on last year's <a href="https://mpospese.com/2023/08/02/six-years-in-switzerland/#goals">goals</a>?</p>
+      <br>
+      <h3>Hits</h3>
+        <ul>
+          <li>Apply for permanent residency</li>
+          <li>Pass the B1 Goethe German test</li>
+        </ul>
+      <br>
+      <h3>Indeterminate</h3>
+        <ul>
+          <li>Get hired locally (I'm working for a U.S. company but on a local contract)</li>
+        </ul>
+      <br>
+      <h3>Misses</h3>
+        <ul>
+          <li>Complete the Via Engiadina hiking trail</li>
+          <li>Exercise regularly</li>
+        </ul>
+      <br>
+      <h2>Goals for our eighth year in Switzerland</h2>
+        <ul>
+          <li>Hike more stages of the Via Engiadina</li>
+          <li>Spend a night in a mountain hut</li>
+          <li>Exercise regularly</li>
+          <li>Improve my conversational German</li>
+          <li>Enroll our son in university</li>
+          <li>Make plans for beyond summer 2025</li>
+        </ul>
+      <br>
+      <h2>The Future</h2>
+      <p>We will definitely stay here until our son finishes high school next summer. I would like to stay longer. In three years we would be eligible for Swiss citizenship. At this point I really don't want to live anywhere else.</p>
+      ]]></description>
+    </item>
 
-	</channel>
+    <item>
+      <title>Rainy Swiss National Day Hike</title>
+      <pubDate>Thu, 1 Aug 2024 16:27:26 +0200</pubDate>
+      <guid>https://crazymilk.net/blog/rainy-swiss-national-day-hike.html</guid>
+      <link>https://crazymilk.net/blog/rainy-swiss-national-day-hike.html</link>
+      <description><![CDATA[
+        <img src="https://crazymilk.net/files/images/photos/rainy-swiss-national-day-hike.webp" alt="View of a lake on a rainy and misty day with a cross and park bench in the foreground." width=960 height=540 loading="lazy" decoding="async" />
+        <p>I hiked up to the White Cross today after about five weeks without exercising. It rained lightly most of the time and thunder rumbled, but there was no lightning and no thunderstorms.</p>
+      ]]></description>
+    </item>
+
+    <item>
+      <title>Happy 733rd, Switzerland! 🇨🇭</title>
+      <pubDate>Thu, 1 Aug 2024 16:05:24 +0200</pubDate>
+      <guid>https://crazymilk.net/blog/happy-733rd-switzerland.html</guid>
+      <link>https://crazymilk.net/blog/happy-733rd-switzerland.html</link>
+      <description><![CDATA[
+      	<img src="https://crazymilk.net/files/images/photos/happy-733rd-switzerland.webp" alt="A plate holding a Swiss weggli bread roll with a cross shape on top and a tiny paper Swiss flag stuck in it." width=960 height=960 loading="lazy" decoding="async" />
+      	<p>Happy Swiss National Day!</p>
+      	<p>I celebrated by buying the traditional 1. August Weggli bread rolls and going for a short hike.</p>
+      	<p>Once again I'm grateful that I'm on a local contract and get local Swiss holidays off.</p>
+      ]]></description>
+    </item>
+
+    <item>
+      <title>Pfingstmontag SUP</title>
+      <pubDate>Mon, 20 May 2024 12:00:59 +0200</pubDate>
+      <guid>https://crazymilk.net/blog/pfingstmontag-sup.html</guid>
+      <link>https://crazymilk.net/blog/pfingstmontag-sup.html</link>
+      <description><![CDATA[
+        <img src="https://crazymilk.net/files/images/photos/pfingstmontag-sup.webp" alt="Green pasture and forested hills under a blue sky with white clouds reflected in a calm lake." width=960 height=540 loading="lazy" decoding="async" />
+        <p>Today is Pfingstmontag (German for Whit Monday). It's not a holiday for me even though all the stores are closed. Lovely day for a SUP outing. The alphorn player was back, so I got a bit of a concert.</p>
+      ]]></description>
+    </item>
+
+    <item>
+      <title>Ägerital Panorama</title>
+      <pubDate>Thu, 16 May 2024 11:18:52 +0200</pubDate>
+      <guid>https://crazymilk.net/blog/aegerital-panorama.html</guid>
+      <link>https://crazymilk.net/blog/aegerital-panorama.html</link>
+      <description><![CDATA[
+        <img src="https://crazymilk.net/files/images/photos/aegerital-panorama.webp" alt="Panorama view of the Ägeri valley. The village sits on the right and the lake on the left. Lots of light green pastures and dark green forested hills. The sky is blue with white clouds." width=960 height=267 loading="lazy" decoding="async" />
+        <p>Panorama of Ägeri valley with the village of Unterägeri on the right and Lake Ägeri on the left.</p>
+      ]]></description>
+    </item>
+
+    <item>
+      <title>Three in a Row</title>
+      <pubDate>Thu, 16 May 2024 11:16:41 +0200</pubDate>
+      <guid>https://crazymilk.net/blog/three-in-a-row.html</guid>
+      <link>https://crazymilk.net/blog/three-in-a-row.html</link>
+      <description><![CDATA[
+        <img src="https://crazymilk.net/files/images/photos/three-in-a-row.webp" alt="View of a lake on a lovely day. Green pasture dotted with yellow flowers is in the foreground together with a park bench under a large white cross. The sky is blue with many puffy white clouds." width=960 height=540 loading="lazy" decoding="async" />
+        <p>The rain will hold off until this evening, so I made it three days in a row hiking up to the cross.</p>
+      ]]></description>
+    </item>
+
+    <item>
+      <title>White Cross Again</title>
+      <pubDate>Wed, 15 May 2024 11:24:36 +0200</pubDate>
+      <guid>https://crazymilk.net/blog/white-cross-again.html</guid>
+      <link>https://crazymilk.net/blog/white-cross-again.html</link>
+      <description><![CDATA[
+        <img src="https://crazymilk.net/files/images/photos/white-cross-again.webp" alt="View of a lake on an overcast day. Green pasture dotted with yellow flowers is in the foreground together with a park bench under a large white cross. The sky is completely covered in clouds." width=960 height=540 loading="lazy" decoding="async" />
+        <p>I hiked up to the White Cross before my Wednesday morning German conversation course. That's two days in a row. Tomorrow it's supposed to rain, so I won't be trying for three.</p>
+        <img src="https://crazymilk.net/files/images/photos/white-cross-again-2.webp" alt="View of a lake on an overcast day. Green pasture dotted with yellow flowers is in the foreground and dark green forested hills in the background. The sky is completely covered in clouds." width=960 height=540 loading="lazy" decoding="async" />
+      ]]></description>
+    </item>
+
+    <item>
+      <title>White Cross</title>
+      <pubDate>Tue, 14 May 2024 10:55:09 +0200</pubDate>
+      <guid>https://crazymilk.net/blog/white-cross.html</guid>
+      <link>https://crazymilk.net/blog/white-cross.html</link>
+      <description><![CDATA[
+        <img src="https://crazymilk.net/files/images/photos/white-cross.webp" alt="View of a lake on a sunny day. Green pasture dotted with yellow flowers is in the foreground together with a park bench under a large white cross. The sky is cloudless and blue." width=960 height=540 loading="lazy" decoding="async" />
+        <p>Hiked up to the White Cross (Weisses Kreuz) this morning for the first time in four and a half months. Fantastic views as always, especially for 40 minutes from my front door. I should do this hike more often (it's harder than my typical farm field walks and takes a bit more time).</p>
+        <img src="https://crazymilk.net/files/images/photos/white-cross-2.webp" alt="View of light green pasture and dark green forested hills on a sunny day. A large white cross is silhouetted against a cloudless blue sky. A few snow-covered mountains are visible in the far distance." width=960 height=540 loading="lazy" decoding="async" />
+      ]]></description>
+    </item>
+
+    <item>
+      <title>Overcast Morning</title>
+      <pubDate>Mon, 13 May 2024 09:36:46 +0200</pubDate>
+      <guid>https://crazymilk.net/blog/overcast-morning.html</guid>
+      <link>https://crazymilk.net/blog/overcast-morning.html</link>
+      <description><![CDATA[
+        <img src="https://crazymilk.net/files/images/photos/overcast-morning.webp" alt="View of Ägeri valley and its lake. Light green pastures are in the foreground with darker green hills in the background. The sky is completely overcast." width=960 height=540 loading="lazy" decoding="async" />
+        <p>After a sunny weekend, the cloudy weather is back. Morning walk: ✅.</p>
+      ]]></description>
+    </item>
+
+    <item>
+      <title>Reflections in a Morning Lake</title>
+      <pubDate>Sat, 11 May 2024 09:30:44 +0200</pubDate>
+      <guid>https://crazymilk.net/blog/reflections-in-a-morning-lake.html</guid>
+      <link>https://crazymilk.net/blog/reflections-in-a-morning-lake.html</link>
+      <description><![CDATA[
+        <img src="https://crazymilk.net/files/images/photos/reflections-in-a-morning-lake.webp" alt="View of a calm lake under a blue almost cloudless sky showing a few contrails. Green forested hills are on the right side, while on the left mist hovers over the surface of the lake in the distance. Everything is reflected in the surface of the lake." width=960 height=540 loading="lazy" decoding="async" />
+        <p>Another fine morning on the lake. 'Nuff said.</p>
+      ]]></description>
+    </item>
+
+  </channel>
 </rss>
