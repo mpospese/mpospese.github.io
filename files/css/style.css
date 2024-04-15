@@ -167,6 +167,20 @@
     cursor: pointer;
   }
 
+  header {
+    border-bottom: 2px solid rgba(128, 128, 128, 0.2);
+    margin-bottom: calc(var(--stack) * 1.5);
+    padding-bottom: calc(var(--stack) / 2);
+  }
+
+  footer {
+    margin-top: calc(var(--stack) * 1.5);
+    padding-top: calc(var(--stack) / 2);
+    border-top: 2px solid rgba(128, 128, 128, 0.4);
+    font-size: 0.75em;
+    opacity: 0.5;
+  }
+
   body {
     padding-block: var(--page-padding-block);
   }
