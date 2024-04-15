@@ -5,22 +5,21 @@
     --paragraph-indent: calc(var(--gutter) / 1.5);
     --line-length: 66ch;
     --page-padding-inline: calc((100vi - min(var(--line-length), 80vi)) / 2);
-    --page-padding-block: calc(var(--stack) * 8);
+    --page-padding-block: calc(var(--stack) * 2);
     --landmark-hr-size: 2px;
     --hr-size: 1px;
     --landmark-hr-margin-block: calc(var(--stack) * 3);
     --hr-margin-block: calc(var(--stack) * 2);
     --underline: solid;
-    --font: "Georgia", serif;
+    --font: "Verdana", system-ui, sans-serif;
     --font-variant: "Verdana", system-ui, sans-serif;
     --font-mono: ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas,
       Liberation Mono, monospace;
     --font-size: clamp(95%, 80% + 0.5vi, 150%);
     --leading: 1.475;
-    --pt-double-canon: clamp(3em, 2.5179em + 2.4107vi, 4.666em);
-    --pt-canon: clamp(2.5em, 2.2321em + 1.9643vi, 3.999em);
+    --pt-canon: clamp(1.25em, 1.116em + 1.31vi, 2em);
     --pt-double-great-primer: clamp(2em, 1.7143em + 1.4286vi, 2.999em);
-    --pt-double-pica: clamp(1.65em, 1.3571em + 0.7143vi, 2em);
+    --pt-double-pica: clamp(1em, 0.85em + 0.7143vi, 1.25em);
     --pt-paragon: clamp(1.35em, 1.2054em + 0.5357vi, 1.666em);
     --pt-english: 1.166em;
     --pt-pica: 1em;
@@ -46,6 +45,7 @@
     --leading: 1.45;
   }
 }
+
 @layer resets {
   *,
 *::before,
@@ -182,11 +182,33 @@
   }
 
   body {
-    padding-block: var(--page-padding-block);
+    padding-top: calc(max(var(--page-padding-block), env(safe-area-inset-top)));
+    padding-left: calc(max(var(--page-padding-inline), env(safe-area-inset-left)));
+    padding-bottom: calc(max(var(--page-padding-block), env(safe-area-inset-bottom)));
+    padding-right: calc(max(var(--page-padding-inline), env(safe-area-inset-right)));
   }
 
-  :where(header, main, footer) {
-    padding-inline: var(--page-padding-inline);
+  a {
+    text-decoration-color: color-mix(in srgb, currentColor 25%, transparent);
+    text-underline-offset: 0.125em;
+    text-decoration-thickness: calc(max(2px, 10%));
+  }
+
+  a:active {
+    text-decoration-color: color-mix(in srgb, crimson 67%, transparent);
+    transition: text-decoration-color 0.0625s;
+  }
+
+  a:hover {
+    text-decoration-color: color-mix(in srgb, crimson 33%, transparent);
+  }
+
+  :where(header *:not(h1, h1 *)) {
+    opacity: 0.5;
+  }
+
+  :where(header *:not(h1, h2, h3, h4, h5, h6, h1 *, h2 *, h3 *, h4 *, h5 *, h6 *)) {
+    font-size: 0.875em;
   }
 
   :where(button, dd, th, td, kbd, select, input:not([type="radio"], [type="checkbox"]), textarea, nav
@@ -235,13 +257,11 @@
   }
 
   :where(h1, h2, h3, h4, h5, h6, header nav) {
-    -webkit-margin-before: calc(var(--stack) * 1.5);
-            margin-block-start: calc(var(--stack) * 1.5);
+    margin: 0.125em 0;
   }
 
-  :where(h1, h2, h3, h4, h5, h6) + *:not(h1, h2, h3, h4, h5, h6) {
-    -webkit-margin-before: calc(var(--stack) / 2);
-            margin-block-start: calc(var(--stack) / 2);
+  :where(h1, h2, h3, h4, h5, h6) + *:not(h1, h2, h3, h4, h5, h6, p) {
+    margin: 0.125em 0;
   }
 
   :where(li ol:first-of-type, li ul:first-of-type, nav ul) {
@@ -268,16 +288,13 @@
     list-style: none;
   }
 
-  :where(p:not(:first-of-type)) {
-    text-indent: var(--paragraph-indent);
-  }
-
-  :where(h1, h2, h3, h4, h5, h6) + p {
+  :where(p) {
+    margin: 0.5em 0;
     text-indent: 0;
   }
 
   :where(h1, h2, h3, h4, h5, h6) {
-    line-height: 1.1;
+    line-height: 1.125;
     letter-spacing: -0.02ch;
     text-wrap: pretty;
   }
@@ -294,10 +311,6 @@
   }
 
   :where(h1) {
-    font-size: var(--pt-double-canon);
-  }
-
-  :where(main h1) {
     font-size: var(--pt-canon);
   }
 
@@ -540,23 +553,5 @@
     transform: translatex(-125%);
     opacity: 0.5;
     font-weight: normal;
-  }
-  [data-theme=verdana] :where(h1)::before {
-    content: "H1";
-  }
-  [data-theme=verdana] :where(h2)::before {
-    content: "H2";
-  }
-  [data-theme=verdana] :where(h3)::before {
-    content: "H3";
-  }
-  [data-theme=verdana] :where(h4)::before {
-    content: "H4";
-  }
-  [data-theme=verdana] :where(h5)::before {
-    content: "H5";
-  }
-  [data-theme=verdana] :where(h6)::before {
-    content: "H6";
   }
 }
