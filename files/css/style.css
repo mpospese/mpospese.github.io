@@ -203,11 +203,11 @@
     text-decoration-color: color-mix(in srgb, crimson 33%, transparent);
   }
 
-  :where(header *:not(h1, h1 *)) {
+  :where(header *:not(h1, h1 *, form, button)) {
     opacity: 0.5;
   }
 
-  :where(header *:not(h1, h2, h3, h4, h5, h6, h1 *, h2 *, h3 *, h4 *, h5 *, h6 *)) {
+  :where(header *:not(h1, h2, h3, h4, h5, h6, h1 *, h2 *, h3 *, h4 *, h5 *, h6 *, form, button)) {
     font-size: 0.875em;
   }
 
