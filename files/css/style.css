@@ -299,10 +299,6 @@
     text-wrap: pretty;
   }
 
-  :where(header h1 ~ p) {
-    line-height: 1.25;
-  }
-
   :where(h1, h2, h3, h4) {
     overflow-wrap: break-word;
     -webkit-hyphens: auto;
@@ -318,7 +314,7 @@
     font-size: var(--pt-double-great-primer);
   }
 
-  :where(h3, header h1 ~ p) {
+  :where(h3) {
     font-size: var(--pt-double-pica);
   }
 
@@ -543,11 +539,6 @@
     list-style: none;
   }
 
-  [data-theme=verdana] :where(h1, h2, h3, h4, h5, h6, header h1 ~ p, blockquote p) {
-    font-size: inherit;
-    line-height: inherit;
-    letter-spacing: 0;
-  }
   [data-theme=verdana] :where(h1, h2, h3, h4, h5, h6)::before {
     position: absolute;
     transform: translatex(-125%);
