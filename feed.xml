@@ -1,49 +1,64 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-	<channel>
-		<title>Crazy Milk</title>
-		<link>https://crazymilk.net/</link>
-		<description>Mark Pospesel’s weblog.</description>
-		<language>en-us</language>
-		<atom:link href="https://crazymilk.net/feed.xml" rel="self" type="application/rss+xml" />
+  <channel>
+    <title>Crazy Milk</title>
+    <link>https://crazymilk.net/</link>
+    <description>Mark Pospesel’s weblog.</description>
+    <language>en-us</language>
+    <atom:link href="https://crazymilk.net/feed.xml" rel="self" type="application/rss+xml" />
 
-		<item>
-			<title>Bärenhunger auf Bärlauch?</title>
-			<pubDate>Tue, 16 Apr 2024 08:59:00 GMT</pubDate>
-			<guid>https://crazymilk.net/blog/baerenhunger-auf-baerlauch.html</guid>
-			<link>https://crazymilk.net/blog/baerenhunger-auf-baerlauch.html</link>
-			<description><![CDATA[
-      <img src="https://crazymilk.net/files/images/photos/baerenhunger-auf-baerlauch.webp" alt="Supermarket sign seen in Switzerland advertising bärlauch-flavored bratwurst. The sign reads in German &quot;Bärenhunger auf Bärlauch?&quot;" width=720 height=720 loading="lazy" decoding="async">
-      <h3>Are you hungry like a bear for wild garlic?</h3>
-      <p>Why, yes. Yes I am!</p>
-      <p>Bärlauch, known in English as wild garlic or ramsons, is something I only <a href="https://mpospese.com/2018/04/04/barlauch/">discovered</a> upon moving to Switzerland. It grows wild in the forests in springtime. Supposedly bears like it (not that there are many wild bears here to eat it).</p>
-      <p>Every Spring I look forward to the few weeks when fresh bärlauch is available in the local grocery stores. I use it in <a href="https://mpospese.com/2018/04/09/barlauch-pesto/">pestos</a>, pizzas, quiches, pastas, etc. In a world where many produce items are available year-round (potentially at great environmental cost), I appreciate the local nature and temporal scarcity of bärlauch.</p>
-			]]></description>
-		</item>
+    <item>
+      <title>Ägeri Farbig</title>
+      <pubDate>Wed, 17 Apr 2024 12:12:00 +0200</pubDate>
+      <guid>https://crazymilk.net/blog/aegeri-farbig.html</guid>
+      <link>https://crazymilk.net/blog/aegeri-farbig.html</link>
+      <description><![CDATA[
+        <img src="https://crazymilk.net/files/images/photos/aegeri-farbig-haus.webp" alt="Back side and yard of a historic wooden 3-story Swiss house decorated with thousands of colorful knitted yarn squares. One large square reads &quot;&num;Aegeri Farbig&quot; and another is a pixel-art style heart." width=960 height=720>
+        <p>Ägeri Farbig means something like "Colored Ägeri" or "Vivid Ägeri". Ägeri is the name of the little pre-alpine valley (and its lake) where I live.</p>
+        <img src="https://crazymilk.net/files/images/photos/aegeri-farbig-haus-2.webp" alt="Angled view showing two sides of a historic wooden 3-story Swiss house decorated with thousands of colorful knitted yarn squares." width=960 height=720>
+        <p>Ägeri Farbig is a volunteer organization of knitters. Each year they decorate something outdoors with colorful yarn squares. In previous years they have wrapped trees in local parks. This year they decorated this old wooden house in the middle of Unterägeri village. The house is decorated with over 7,000 knitted squares contributed by nearly 300 knitters from here and abroad.</p>
+        <img src="https://crazymilk.net/files/images/photos/aegeri-farbig-haus-3.webp" alt="Front side of a historic wooden 3-story Swiss house decorated with thousands of colorful knitted yarn squares." width=960 height=720>
+        <p>It's on the route I take to walk to a couple bakeries and the lake, so I see it often. Whenever I do it always brightens my day.</p>
+      ]]></description>
+    </item>
 
-		<item>
-			<title>First SUP of 2024</title>
-			<pubDate>Sun, 14 Apr 2024 16:37:00 GMT</pubDate>
-			<guid>https://crazymilk.net/blog/first-sup-of-2024.html</guid>
-			<link>https://crazymilk.net/blog/first-sup-of-2024.html</link>
-			<description><![CDATA[
-		<img src="https://crazymilk.net/files/images/photos/first-sup-of-2024.webp" alt="View of the tip of a standup paddle board floating on a smooth blue lake with green pastures and forested hills in the distance. There's some sort of waterfowl paddling in front of the board." width=1920 height=1440 loading="lazy" decoding="async">
-		<p>Today felt like an early summer day, except it's mid-April. I should be worried about whether we'll get one last snow and not beach weather. In any case it was a gorgeous morning to be out on Lake Ägeri. Apart from a couple fishing boats and some waterfowl, I had the lake to myself.</p>
-		<p>There's a bakery located by the boat ramp where I put in, so I often grab a cup of coffee and balance it on the board. After a 30-minute paddle, I was sitting on my board and enjoying my first coffee of the day when I took this photo.</p>
-			]]></description>
-		</item>
+    <item>
+      <title>Bärenhunger auf Bärlauch?</title>
+      <pubDate>Tue, 16 Apr 2024 08:59:00 GMT</pubDate>
+      <guid>https://crazymilk.net/blog/baerenhunger-auf-baerlauch.html</guid>
+      <link>https://crazymilk.net/blog/baerenhunger-auf-baerlauch.html</link>
+      <description><![CDATA[
+        <img src="https://crazymilk.net/files/images/photos/baerenhunger-auf-baerlauch.webp" alt="Supermarket sign seen in Switzerland advertising bärlauch-flavored bratwurst. The sign reads in German &quot;Bärenhunger auf Bärlauch?&quot;" width=720 height=720 loading="lazy" decoding="async">
+        <h3>Are you hungry like a bear for wild garlic?</h3>
+        <p>Why, yes. Yes I am!</p>
+        <p>Bärlauch, known in English as wild garlic or ramsons, is something I only <a href="https://mpospese.com/2018/04/04/barlauch/">discovered</a> upon moving to Switzerland. It grows wild in the forests in springtime. Supposedly bears like it (not that there are many wild bears here to eat it).</p>
+        <p>Every Spring I look forward to the few weeks when fresh bärlauch is available in the local grocery stores. I use it in <a href="https://mpospese.com/2018/04/09/barlauch-pesto/">pestos</a>, pizzas, quiches, pastas, etc. In a world where many produce items are available year-round (potentially at great environmental cost), I appreciate the local nature and temporal scarcity of bärlauch.</p>
+      ]]></description>
+    </item>
 
-		<item>
-			<title>Trying my Hand at a Static Website</title>
-			<pubDate>Sun, 14 Apr 2024 13:41:00 GMT</pubDate>
-			<guid>https://crazymilk.net/blog/trying-my-hand-at-a-static-website.html</guid>
-			<link>https://crazymilk.net/blog/trying-my-hand-at-a-static-website.html</link>
-			<description><![CDATA[
-				<p>I've been using WordPress to run <a href="https://mpospese.com">my blog</a> since I started it in 2011. Initially I used WordPress dot com, but in 2018 I switched over to hosting a WordPress dot org site. Lately though I've gotten tired of all WordPress' cruft and have been longing for a much simpler static site.</p>
-				<p>Inspired by Louie Mantia Jr's <a href="https://lmnt.me/blog/how-to-make-a-damn-website.html">How to Make a Damn Website</a> post, here is my first post to the new site. I'm currently using GitHub Pages to host it because it's free and I'm not ready to attempt to port over 13 years of posts from my WordPress blog just yet.</p>
-				<p>Who knows? Maybe I'll even learn some HTML and CSS along the way. Fingers crossed.</p>
-			]]></description>
-		</item>
+    <item>
+      <title>First SUP of 2024</title>
+      <pubDate>Sun, 14 Apr 2024 16:37:00 GMT</pubDate>
+      <guid>https://crazymilk.net/blog/first-sup-of-2024.html</guid>
+      <link>https://crazymilk.net/blog/first-sup-of-2024.html</link>
+      <description><![CDATA[
+        <img src="https://crazymilk.net/files/images/photos/first-sup-of-2024.webp" alt="View of the tip of a standup paddle board floating on a smooth blue lake with green pastures and forested hills in the distance. There's some sort of waterfowl paddling in front of the board." width=1920 height=1440 loading="lazy" decoding="async">
+        <p>Today felt like an early summer day, except it's mid-April. I should be worried about whether we'll get one last snow and not beach weather. In any case it was a gorgeous morning to be out on Lake Ägeri. Apart from a couple fishing boats and some waterfowl, I had the lake to myself.</p>
+        <p>There's a bakery located by the boat ramp where I put in, so I often grab a cup of coffee and balance it on the board. After a 30-minute paddle, I was sitting on my board and enjoying my first coffee of the day when I took this photo.</p>
+      ]]></description>
+    </item>
 
-	</channel>
+    <item>
+      <title>Trying my Hand at a Static Website</title>
+      <pubDate>Sun, 14 Apr 2024 13:41:00 GMT</pubDate>
+      <guid>https://crazymilk.net/blog/trying-my-hand-at-a-static-website.html</guid>
+      <link>https://crazymilk.net/blog/trying-my-hand-at-a-static-website.html</link>
+      <description><![CDATA[
+        <p>I've been using WordPress to run <a href="https://mpospese.com">my blog</a> since I started it in 2011. Initially I used WordPress dot com, but in 2018 I switched over to hosting a WordPress dot org site. Lately though I've gotten tired of all WordPress' cruft and have been longing for a much simpler static site.</p>
+        <p>Inspired by Louie Mantia Jr's <a href="https://lmnt.me/blog/how-to-make-a-damn-website.html">How to Make a Damn Website</a> post, here is my first post to the new site. I'm currently using GitHub Pages to host it because it's free and I'm not ready to attempt to port over 13 years of posts from my WordPress blog just yet.</p>
+        <p>Who knows? Maybe I'll even learn some HTML and CSS along the way. Fingers crossed.</p>
+      ]]></description>
+    </item>
+
+  </channel>
 </rss>
