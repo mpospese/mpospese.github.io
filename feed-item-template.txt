@@ -1,0 +1,9 @@
+    <item>
+      <title>🚨 COPY TITLE HERE</title>
+      <pubDate>🚨 TIMESTAMP: Tue, 16 Apr 2024 08:59:00 +0200</pubDate>
+      <guid>https://crazymilk.net/blog/🚨-copy-url-slug-here.html</guid>
+      <link>https://crazymilk.net/blog/🚨-copy-url-slug-here.html</link>
+      <description><![CDATA[
+        <p>🚨 COPY CONTENTS OF MAIN HERE</p>
+      ]]></description>
+    </item>
