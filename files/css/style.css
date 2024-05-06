@@ -13,6 +13,7 @@
     --underline: solid;
     --font: "Verdana", system-ui, sans-serif;
     --font-variant: "Verdana", system-ui, sans-serif;
+    --font-headline: "Cartridge", "Verdana", system-ui, sans-serif;
     --font-mono: ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas,
       Liberation Mono, monospace;
     --font-size: clamp(95%, 80% + 0.5vi, 150%);
@@ -46,6 +47,19 @@
   }
 }
 
+@font-face {
+  font-family: "Cartridge";
+  src: url("/files/fonts/Cartridge-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Cartridge";
+  src: url("/files/fonts/Cartridge-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
 @layer resets {
   *,
 *::before,
@@ -63,6 +77,7 @@
     padding: 0;
   }
 }
+
 @layer elements {
   *::-moz-selection {
     background: crimson;
@@ -294,6 +309,7 @@
   }
 
   :where(h1, h2, h3, h4, h5, h6) {
+    font-family: var(--font-headline);
     line-height: 1.125;
     letter-spacing: -0.02ch;
     text-wrap: pretty;
