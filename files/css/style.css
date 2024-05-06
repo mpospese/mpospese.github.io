@@ -326,6 +326,7 @@
 
   :where(h1) {
     font-size: var(--pt-canon);
+    text-transform: uppercase;
   }
 
   :where(h2) {
