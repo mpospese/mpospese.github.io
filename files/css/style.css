@@ -19,10 +19,10 @@
     --font-size: clamp(95%, 80% + 0.5vi, 150%);
     --leading: 1.475;
     --pt-canon: clamp(1.25em, 1.116em + 1.31vi, 2em);
-    --pt-double-great-primer: clamp(2em, 1.7143em + 1.4286vi, 2.999em);
-    --pt-double-pica: clamp(1em, 0.85em + 0.7143vi, 1.25em);
-    --pt-paragon: clamp(1.35em, 1.2054em + 0.5357vi, 1.666em);
-    --pt-english: 1.166em;
+    --pt-double-great-primer: clamp(1.125em, 0.983em + 1.012vi, 1.625em);
+    --pt-double-pica: clamp(1em, 0.85em + 0.714vi, 1.25em);
+    --pt-paragon: 1.166em;
+    --pt-english: 1.083em;
     --pt-pica: 1em;
     --pt-small-pica: 0.916em;
     --pt-long-primer: 0.833em;
