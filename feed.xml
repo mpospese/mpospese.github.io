@@ -8,6 +8,37 @@
     <atom:link href="https://crazymilk.net/feed.xml" rel="self" type="application/rss+xml" />
 
     <item>
+      <title>Happy Ascension Day!</title>
+      <pubDate>Thu, 9 May 2024 18:02:02 +0200</pubDate>
+      <guid>https://crazymilk.net/blog/happy-ascension-day.html</guid>
+      <link>https://crazymilk.net/blog/happy-ascension-day.html</link>
+      <description><![CDATA[
+        <p>I'm not religious, but I'm happy to live in a Catholic canton with frequent public holidays. In the past I've always had to work on these days (because it's not a holiday in the U.S.), but since last November I'm on a local Swiss contract and I had today off.</p>
+        <img src="https://crazymilk.net/files/images/photos/happy-ascension-day.webp" alt="View of a windy gravel road through green pastures dotted with yellow wildflowers. Dark green forest borders the pasture, and the sky above is blue with puffy white clouds." width=960 height=540 loading="lazy" decoding="async" />
+        <p>I went for a long walk in the farm fields this morning, bought coffee and pastries from the one open bakery, watched a movie with my son, and now I'm watching him play Tears of the Kingdom while I mess around with this blog. Tonight there's part 2 of the Eurvision Song Contest semifinals. Life is good.</p>
+      ]]></description>
+    </item>
+
+    <item>
+      <title>Retro Font and a Thin Red Line</title>
+      <pubDate>Thu, 9 May 2024 17:35:05 +0200</pubDate>
+      <guid>https://crazymilk.net/blog/retro-font-and-a-thin-red-line.html</guid>
+      <link>https://crazymilk.net/blog/retro-font-and-a-thin-red-line.html</link>
+      <description><![CDATA[
+        <p>I launched this simple HTML + CSS site less than a month ago. At the time I didn't even know what a CSS selector was. I started with <a href="https://mikemai.net/mcss/">MCSS</a> by former coworker <a href="https://mikemai.net">Mike Mai</a>, and since then I have been slowly customizing it to suit my needs (Disclaimer: all design crimes have been committed by me). Recently I made two changes to personalize my CSS a bit more.</p>
+        <br>
+        <h3>1. CARTRIDGE: A Retro Font</h3>
+        <hr>
+        <p>I love video games and old LEGO from the 1980's, so I wanted a font with a retro feel to use for headings. SimpleBits' <a href="https://simplebits.shop/products/cartridge">Cartridge</a> font fits the bill perfectly, and a license for a single domain website only costs a very reasonable 15 CHF. I decided to use all caps for H1 headers, but I'm not certain I'll stick with that choice.</p>
+        <p>The font includes two stylistic sets with alternate glyphs for capital A,R,T, V, W, and Y. I really like the first set, but it doesn't look right with every word, so I'm not specifying it by default.</p>
+        <br>
+        <h3>2. A Thin Red Line</h3>
+        <hr>
+        <p>I intentionally made my site just black and white for maximum contrast and easy support for light and dark modes, but I did want to add just a bit of color as an accent. Red always pairs well with black and white, and what better red than Swiss flag red? I like how it looks, and it has personal meaning for me.</p>
+      ]]></description>
+    </item>
+
+    <item>
       <title>Rainy Morning</title>
       <pubDate>Wed, 8 May 2024 11:51:04 +0200</pubDate>
       <guid>https://crazymilk.net/blog/rainy-morning.html</guid>
@@ -115,32 +146,6 @@
         <p>Ägeri Farbig is a volunteer organization of knitters. Each year they decorate something outdoors with colorful yarn squares. In previous years they have wrapped trees in local parks. This year they decorated this old wooden house in the middle of Unterägeri village. The house is decorated with over 7,000 knitted squares contributed by nearly 300 knitters from here and abroad.</p>
         <img src="https://crazymilk.net/files/images/photos/aegeri-farbig-haus-3.webp" alt="Front side of a historic wooden 3-story Swiss house decorated with thousands of colorful knitted yarn squares." width=960 height=720>
         <p>It's on the route I take to walk to a couple bakeries and the lake, so I see it often. Whenever I do it always brightens my day.</p>
-      ]]></description>
-    </item>
-
-    <item>
-      <title>Bärenhunger auf Bärlauch?</title>
-      <pubDate>Tue, 16 Apr 2024 08:59:00 GMT</pubDate>
-      <guid>https://crazymilk.net/blog/baerenhunger-auf-baerlauch.html</guid>
-      <link>https://crazymilk.net/blog/baerenhunger-auf-baerlauch.html</link>
-      <description><![CDATA[
-        <img src="https://crazymilk.net/files/images/photos/baerenhunger-auf-baerlauch.webp" alt="Supermarket sign seen in Switzerland advertising bärlauch-flavored bratwurst. The sign reads in German &quot;Bärenhunger auf Bärlauch?&quot;" width=720 height=720 loading="lazy" decoding="async">
-        <h3>Are you hungry like a bear for wild garlic?</h3>
-        <p>Why, yes. Yes I am!</p>
-        <p>Bärlauch, known in English as wild garlic or ramsons, is something I only <a href="https://mpospese.com/2018/04/04/barlauch/">discovered</a> upon moving to Switzerland. It grows wild in the forests in springtime. Supposedly bears like it (not that there are many wild bears here to eat it).</p>
-        <p>Every Spring I look forward to the few weeks when fresh bärlauch is available in the local grocery stores. I use it in <a href="https://mpospese.com/2018/04/09/barlauch-pesto/">pestos</a>, pizzas, quiches, pastas, etc. In a world where many produce items are available year-round (potentially at great environmental cost), I appreciate the local nature and temporal scarcity of bärlauch.</p>
-      ]]></description>
-    </item>
-
-    <item>
-      <title>First SUP of 2024</title>
-      <pubDate>Sun, 14 Apr 2024 16:37:00 GMT</pubDate>
-      <guid>https://crazymilk.net/blog/first-sup-of-2024.html</guid>
-      <link>https://crazymilk.net/blog/first-sup-of-2024.html</link>
-      <description><![CDATA[
-        <img src="https://crazymilk.net/files/images/photos/first-sup-of-2024.webp" alt="View of the tip of a standup paddle board floating on a smooth blue lake with green pastures and forested hills in the distance. There's some sort of waterfowl paddling in front of the board." width=1920 height=1440 loading="lazy" decoding="async">
-        <p>Today felt like an early summer day, except it's mid-April. I should be worried about whether we'll get one last snow and not beach weather. In any case it was a gorgeous morning to be out on Lake Ägeri. Apart from a couple fishing boats and some waterfowl, I had the lake to myself.</p>
-        <p>There's a bakery located by the boat ramp where I put in, so I often grab a cup of coffee and balance it on the board. After a 30-minute paddle, I was sitting on my board and enjoying my first coffee of the day when I took this photo.</p>
       ]]></description>
     </item>
 
