@@ -8,6 +8,18 @@
     <atom:link href="https://crazymilk.net/feed.xml" rel="self" type="application/rss+xml" />
 
     <item>
+      <title>White Cross</title>
+      <pubDate>Tue, 14 May 2024 10:55:09 +0200</pubDate>
+      <guid>https://crazymilk.net/blog/white-cross.html</guid>
+      <link>https://crazymilk.net/blog/white-cross.html</link>
+      <description><![CDATA[
+        <img src="https://crazymilk.net/files/images/photos/white-cross.webp" alt="View of a lake on a sunny day. Green pasture dotted with yellow flowers is in the foreground together with a park bench under a large white cross. The sky is cloudless and blue." width=960 height=540 loading="lazy" decoding="async" />
+        <p>Hiked up to the White Cross (Weisses Kreuz) this morning for the first time in four and a half months. Fantastic views as always, especially for 40 minutes from my front door. I should do this hike more often (it's harder than my typical farm field walks and takes a bit more time).</p>
+        <img src="https://crazymilk.net/files/images/photos/white-cross-2.webp" alt="View of light green pasture and dark green forested hills on a sunny day. A large white cross is silhouetted against a cloudless blue sky. A few snow-covered mountains are visible in the far distance." width=960 height=540 loading="lazy" decoding="async" />
+      ]]></description>
+    </item>
+
+    <item>
       <title>Overcast Morning</title>
       <pubDate>Mon, 13 May 2024 09:36:46 +0200</pubDate>
       <guid>https://crazymilk.net/blog/overcast-morning.html</guid>
@@ -120,23 +132,6 @@
           <p>Just now when I returned from the store, there were three letters from the canton addressed to each of us. I just <a href="https://crazymilk.net/blog/settling-in.html">received my settlement permit</a>, but apparently I'm still nervous about my status here in Switzerland. Various thoughts ran through my head: &quot;What if they're kicking us out?&quot;, &quot;What if I've unwittingly broken some rule and they're rescinding my settlement permit?&quot;, etc.</p>
           <p>It turns out that the subject of the letters was entirely benign: we are no longer subject to mandatory tax withholding at source. But my reaction, that gut fear of having messed up, tells me that I still have a lot of work to do on my integration.</p>
           <p>(I have made progress on this in the past year. Letters addressed solely to me no longer trigger this reaction, but in this case the identical letters to all three of us was something I don't think had every happened before and seemed somehow ominous. I was correct however in my assumption that this was related to my recent change in status.)</p>
-      ]]></description>
-    </item>
-
-    <item>
-      <title>Website as Repo</title>
-      <pubDate>Mon, 22 Apr 2024 09:34:06 +0200</pubDate>
-      <guid>https://crazymilk.net/blog/website-as-repo.html</guid>
-      <link>https://crazymilk.net/blog/website-as-repo.html</link>
-      <description><![CDATA[
-          <p>When I decided that I wanted to ditch WordPress and rewrite my website as a static site, I was unsure where and how I wanted to host it. I've paid Bluehost to host my <a href="https://mpospese.com">old WordPress site</a>, but I wasn't quite ready to nuke my existing WordPress install and replace it (and I might never be), so I needed another domain and another hosting solution.</p>
-          <p>The domain part was easy because I had a domain<sup id="footnote-anchor-1"><a href="https://crazymilk.net/blog/website-as-repo.html#footnote-1">[1]</a></sup> that was parked, but because this whole static HTML thing is very much an experiment (one that I am enjoying thus far), I didn't want to spend more money on hosting just yet. Besides, for static HTML sites there are numerous options for free hosting.</p>
-          <p>The simplest solution for me was to just host it through GitHub Pages. I have already been hosting my <a href="https://mpospese.github.io/cv/">CV</a> there since 2018. This means that my entire website is a <a href="https://github.com/mpospese/mpospese.github.io/">public repo</a>, with all of its files and commit history fully visible to the public. I'm OK with that though; websites are public by design.</p>
-          <p>I wanted source control for my new website anyway. That way I can review file history and easily revert anything that borks the site. Having the source control <i>be</i> the website just kills two birds with one stone. So far I am pleased with the arrangement.</p>
-          <hr>
-          <ol>
-              <li id="footnote-1"><p>Crazy Milk Software is my LLC for consulting/freelancing, and so several years back I had acquired the <a href="https://crazymilk.net">crazymilk.net</a> domain. <a href="https://crazymilk.net/blog/website-as-repo.html#footnote-anchor-1" title="Jump back to footnote 1 in the text.">↩</a></p></li>
-          </ol>
       ]]></description>
     </item>
 
