@@ -8,6 +8,30 @@
     <atom:link href="https://crazymilk.net/feed.xml" rel="self" type="application/rss+xml" />
 
     <item>
+      <title>Rainy Swiss National Day Hike</title>
+      <pubDate>Thu, 1 Aug 2024 16:27:26 +0200</pubDate>
+      <guid>https://crazymilk.net/blog/rainy-swiss-national-day-hike.html</guid>
+      <link>https://crazymilk.net/blog/rainy-swiss-national-day-hike.html</link>
+      <description><![CDATA[
+        <img src="https://crazymilk.net/files/images/photos/rainy-swiss-national-day-hike.webp" alt="View of a lake on a rainy and misty day with a cross and park bench in the foreground." width=960 height=540 loading="lazy" decoding="async" />
+        <p>I hiked up to the White Cross today after about five weeks without exercising. It rained lightly most of the time and thunder rumbled, but there was no lightning and no thunderstorms.</p>
+      ]]></description>
+    </item>
+
+    <item>
+      <title>Happy 733rd, Switzerland! 🇨🇭</title>
+      <pubDate>Thu, 1 Aug 2024 16:05:24 +0200</pubDate>
+      <guid>https://crazymilk.net/blog/happy-733rd-switzerland.html</guid>
+      <link>https://crazymilk.net/blog/happy-733rd-switzerland.html</link>
+      <description><![CDATA[
+      	<img src="https://crazymilk.net/files/images/photos/happy-733rd-switzerland.webp" alt="A plate holding a Swiss weggli bread roll with a cross shape on top and a tiny paper Swiss flag stuck in it." width=960 height=960 loading="lazy" decoding="async" />
+      	<p>Happy Swiss National Day!</p>
+      	<p>I celebrated by buying the traditional 1. August Weggli bread rolls and going for a short hike.</p>
+      	<p>Once again I'm grateful that I'm on a local contract and get local Swiss holidays off.</p>
+      ]]></description>
+    </item>
+
+    <item>
       <title>Pfingstmontag SUP</title>
       <pubDate>Mon, 20 May 2024 12:00:59 +0200</pubDate>
       <guid>https://crazymilk.net/blog/pfingstmontag-sup.html</guid>
@@ -96,37 +120,6 @@
         <p>Finally a sunny and calm morning to take out my SUP on Lake Ägeri after rainy days, gusty days, and second winter. I am super grateful for the opportunity to have these little moments of peace and tranquility in the beauty of nature.</p>
         <p>I love my standup paddle board. I didn't think I would when my wife suggested we get one in summer 2020. I have generally poor coordination and balance, and so I didn't think it would be for me. I do only take it out in the calmest of calm conditions. Early mornings are best before the wind picks up.</p>
         <p>My board gives me a sense of independence similar to what I felt when I got my first car at the age of 21. I can go anywhere I want (on a lake), when I want, and do what I want. I like that I can paddle, sit down, lie down, or swim from it. It has tie-downs so that I can bring food, drink, and gear with me in a dry bag. And I can balance a thermal mug of coffee at the front of the board without spilling it. My <i>modus operandi</i> is to paddle out half an hour to a quiet spot, sit down and drink my coffee, snap a few photos, and then paddle back.</p>
-      ]]></description>
-    </item>
-
-    <item>
-      <title>Happy Ascension Day!</title>
-      <pubDate>Thu, 9 May 2024 18:02:02 +0200</pubDate>
-      <guid>https://crazymilk.net/blog/happy-ascension-day.html</guid>
-      <link>https://crazymilk.net/blog/happy-ascension-day.html</link>
-      <description><![CDATA[
-        <p>I'm not religious, but I'm happy to live in a Catholic canton with frequent public holidays. In the past I've always had to work on these days (because it's not a holiday in the U.S.), but since last November I'm on a local Swiss contract and I had today off.</p>
-        <img src="https://crazymilk.net/files/images/photos/happy-ascension-day.webp" alt="View of a windy gravel road through green pastures dotted with yellow wildflowers. Dark green forest borders the pasture, and the sky above is blue with puffy white clouds." width=960 height=540 loading="lazy" decoding="async" />
-        <p>I went for a long walk in the farm fields this morning, bought coffee and pastries from the one open bakery, watched a movie with my son, and now I'm watching him play Tears of the Kingdom while I mess around with this blog. Tonight there's part 2 of the Eurvision Song Contest semifinals. Life is good.</p>
-      ]]></description>
-    </item>
-
-    <item>
-      <title>Retro Font and a Thin Red Line</title>
-      <pubDate>Thu, 9 May 2024 17:35:05 +0200</pubDate>
-      <guid>https://crazymilk.net/blog/retro-font-and-a-thin-red-line.html</guid>
-      <link>https://crazymilk.net/blog/retro-font-and-a-thin-red-line.html</link>
-      <description><![CDATA[
-        <p>I launched this simple HTML + CSS site less than a month ago. At the time I didn't even know what a CSS selector was. I started with <a href="https://mikemai.net/mcss/">MCSS</a> by former coworker <a href="https://mikemai.net">Mike Mai</a>, and since then I have been slowly customizing it to suit my needs (Disclaimer: all design crimes have been committed by me). Recently I made two changes to personalize my CSS a bit more.</p>
-        <br>
-        <h3>1. CARTRIDGE: A Retro Font</h3>
-        <hr>
-        <p>I love video games and old LEGO from the 1980's, so I wanted a font with a retro feel to use for headings. SimpleBits' <a href="https://simplebits.shop/products/cartridge">Cartridge</a> font fits the bill perfectly, and a license for a single domain website only costs a very reasonable 15 CHF. I decided to use all caps for H1 headers, but I'm not certain I'll stick with that choice.</p>
-        <p>The font includes two stylistic sets with alternate glyphs for capital A,R,T, V, W, and Y. I really like the first set, but it doesn't look right with every word, so I'm not specifying it by default.</p>
-        <br>
-        <h3>2. A Thin Red Line</h3>
-        <hr>
-        <p>I intentionally made my site just black and white for maximum contrast and easy support for light and dark modes, but I did want to add just a bit of color as an accent. Red always pairs well with black and white, and what better red than Swiss flag red? I like how it looks, and it has personal meaning for me.</p>
       ]]></description>
     </item>
 
