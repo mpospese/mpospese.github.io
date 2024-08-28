@@ -8,6 +8,18 @@
     <atom:link href="https://crazymilk.net/feed.xml" rel="self" type="application/rss+xml" />
 
     <item>
+      <title>It's Perfect Weather</title>
+      <pubDate>Wed, 28 Aug 2024 11:03:59 +0200</pubDate>
+      <guid>https://crazymilk.net/blog/its-perfect-weather.html</guid>
+      <link>https://crazymilk.net/blog/its-perfect-weather.html</link>
+      <description><![CDATA[
+      <img src="https://crazymilk.net/files/images/photos/its-perfect-weather.webp" alt="A wooden table situated on a wood-floored terrace with a view of a few multi-family houses, green pastures, and a forested mountain in the distance under a hazy light blue sky." width=960 height=540 loading="lazy" decoding="async" />
+      <p>... for working out on the terrace (that's my <a href="https://crazymilk.net/blog/mist-over-the-lake.html">paddling</a> gear drying to the side).</p>
+      <p>I rarely do this because I like my 32" monitor, extended keyboard, and mouse, but every now and then it's good to mix things up. As soon as the sun reaches me though I'm back indoors.</p>
+      ]]></description>
+    </item>
+
+    <item>
       <title>Just a Little Bit of Mist</title>
       <pubDate>Wed, 28 Aug 2024 09:28:48 +0200</pubDate>
       <guid>https://crazymilk.net/blog/just-a-little-bit-of-mist.html</guid>
@@ -166,17 +178,6 @@
       <description><![CDATA[
         <img src="https://crazymilk.net/files/images/photos/aegerital-panorama.webp" alt="Panorama view of the Ägeri valley. The village sits on the right and the lake on the left. Lots of light green pastures and dark green forested hills. The sky is blue with white clouds." width=960 height=267 loading="lazy" decoding="async" />
         <p>Panorama of Ägeri valley with the village of Unterägeri on the right and Lake Ägeri on the left.</p>
-      ]]></description>
-    </item>
-
-    <item>
-      <title>Three in a Row</title>
-      <pubDate>Thu, 16 May 2024 11:16:41 +0200</pubDate>
-      <guid>https://crazymilk.net/blog/three-in-a-row.html</guid>
-      <link>https://crazymilk.net/blog/three-in-a-row.html</link>
-      <description><![CDATA[
-        <img src="https://crazymilk.net/files/images/photos/three-in-a-row.webp" alt="View of a lake on a lovely day. Green pasture dotted with yellow flowers is in the foreground together with a park bench under a large white cross. The sky is blue with many puffy white clouds." width=960 height=540 loading="lazy" decoding="async" />
-        <p>The rain will hold off until this evening, so I made it three days in a row hiking up to the cross.</p>
       ]]></description>
     </item>
 
