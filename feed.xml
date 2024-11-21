@@ -8,6 +8,28 @@
     <atom:link href="https://crazymilk.net/feed.xml" rel="self" type="application/rss+xml" />
 
     <item>
+      <title>Morning Walk</title>
+      <pubDate>Thu, 21 Nov 2024 11:07:57 +0100</pubDate>
+      <guid>https://crazymilk.net/blog/morning-walk-2024-11-21.html</guid>
+      <link>https://crazymilk.net/blog/morning-walk-2024-11-21.html</link>
+      <description><![CDATA[
+          <img src="https://crazymilk.net/files/images/photos/morning-walk-2024-11-21.webp" alt="Landscape view over partially snow-covered farm fields towards a lake. Beyond the lake are partially forested and partially snow-covered hills under a cloudy sky with chemtrails and some blue showing." width=960 height=540 loading="lazy" decoding="async" />
+          <p>Lovely crisp -3°C morning in the Ägeri valley. More snow arrives this afternoon.</p>
+      ]]></description>
+    </item>
+
+    <item>
+      <title>Testing Mastodon Author Tags</title>
+      <pubDate>Wed, 20 Nov 2024 22:05:15 +0100</pubDate>
+      <guid>https://crazymilk.net/blog/testing-mastodon-author-tags.html</guid>
+      <link>https://crazymilk.net/blog/testing-mastodon-author-tags.html</link>
+      <description><![CDATA[
+          <p>... by writing a short post about testing Mastodon author tags. It's all very <code>meta</code>. Quite literally because you add a <code>meta</code> tag with the <code>fediverse:creator</code> property to your HTML document's <code>head</code>.</p>
+          <p>(Hat tip to David Chartier for <a href="https://toot.cafe/@chartier/113516479426771675">pointing me</a> to <a href="https://rknight.me/blog/setting-up-mastodon-author-tags/">Robb Knight's instructions</a>.)</p>
+      ]]></description>
+    </item>
+
+    <item>
       <title>First Snow of Fall</title>
       <pubDate>Wed, 20 Nov 2024 11:41:14 +0100</pubDate>
       <guid>https://crazymilk.net/blog/first-snow-of-fall-2024.html</guid>
@@ -155,30 +177,6 @@
       <br>
       <h2>The Future</h2>
       <p>We will definitely stay here until our son finishes high school next summer. I would like to stay longer. In three years we would be eligible for Swiss citizenship. At this point I really don't want to live anywhere else.</p>
-      ]]></description>
-    </item>
-
-    <item>
-      <title>Rainy Swiss National Day Hike</title>
-      <pubDate>Thu, 1 Aug 2024 16:27:26 +0200</pubDate>
-      <guid>https://crazymilk.net/blog/rainy-swiss-national-day-hike.html</guid>
-      <link>https://crazymilk.net/blog/rainy-swiss-national-day-hike.html</link>
-      <description><![CDATA[
-        <img src="https://crazymilk.net/files/images/photos/rainy-swiss-national-day-hike.webp" alt="View of a lake on a rainy and misty day with a cross and park bench in the foreground." width=960 height=540 loading="lazy" decoding="async" />
-        <p>I hiked up to the White Cross today after about five weeks without exercising. It rained lightly most of the time and thunder rumbled, but there was no lightning and no thunderstorms.</p>
-      ]]></description>
-    </item>
-
-    <item>
-      <title>Happy 733rd, Switzerland! 🇨🇭</title>
-      <pubDate>Thu, 1 Aug 2024 16:05:24 +0200</pubDate>
-      <guid>https://crazymilk.net/blog/happy-733rd-switzerland.html</guid>
-      <link>https://crazymilk.net/blog/happy-733rd-switzerland.html</link>
-      <description><![CDATA[
-      	<img src="https://crazymilk.net/files/images/photos/happy-733rd-switzerland.webp" alt="A plate holding a Swiss weggli bread roll with a cross shape on top and a tiny paper Swiss flag stuck in it." width=960 height=960 loading="lazy" decoding="async" />
-      	<p>Happy Swiss National Day!</p>
-      	<p>I celebrated by buying the traditional 1. August Weggli bread rolls and going for a short hike.</p>
-      	<p>Once again I'm grateful that I'm on a local contract and get local Swiss holidays off.</p>
       ]]></description>
     </item>
 
