@@ -574,3 +574,14 @@
   max-width: 100%;
   height: 100%;
 }
+
+/* row for displaying side-by-side images */
+.row {
+  display: flex;
+}
+
+/* 2-across column */
+.column2 {
+  flex: 50%;
+  padding: 5px;
+}
