@@ -14,6 +14,7 @@
     --font: "Verdana", system-ui, sans-serif;
     --font-variant: "Verdana", system-ui, sans-serif;
     --font-headline: "Cartridge", "Verdana", system-ui, sans-serif;
+    --font-dnd: "Dragonsteel", "ITC Avant Garde Gothic Std", system-ui, serif;
     --font-mono: ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas,
       Liberation Mono, monospace;
     --font-size: clamp(95%, 80% + 0.5vi, 150%);
@@ -50,6 +51,13 @@
   src: url("/files/fonts/Cartridge-Bold.woff2") format("woff2"),
     url("/files/fonts/Cartridge-Bold.woff") format("woff");
   font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Dragonsteel";
+  src: url("/files/fonts/Dragonsteel-Rough.woff2") format("woff2"),
+    url("/files/fonts/Dragonsteel-Rough.woff") format("woff");
+  font-weight: 400;
   font-style: normal;
 }
 
