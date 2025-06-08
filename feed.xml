@@ -8,6 +8,26 @@
     <atom:link href="https://crazymilk.net/feed.xml" rel="self" type="application/rss+xml" />
 
     <item>
+      <title>Via Engiadina Plans</title>
+      <pubDate>Sun, 8 Jun 2025 16:20:17 +0200</pubDate>
+      <guid>https://crazymilk.net/blog/via-engiadina-plans.html</guid>
+      <link>https://crazymilk.net/blog/via-engiadina-plans.html</link>
+      <description><![CDATA[
+      <p>The <a href="https://schweizmobil.ch/en/hiking-in-switzerland/route-87">Via Engiadina</a> hiking trail in Switzerland is a 12-stage 165 km long-distance hiking trail along the entire length of the Engadine high alpine valley in the eastern canton of Graubunden. For several years I have wanted to hike the entire trail, but have only managed six stages (and never more than two stages on consecutive days).</p>
+      <p>This summer I plan to finally hike the entire trail. I will do it in two sections: four stages in mid-June over the Corpus Christi long holiday weekend, and the remaining eight stages either in July or August.</p>
+      <p>For the first four stages I will spend three nights in Silvaplana (my destination after the first stage). It might be more fun to spend each night in a different hostel as near as possible to the stage endpoints, but I have a few reasons for staying in Silvaplana:</p>
+      <ol>
+        <li>I was too busy/lazy to book three different places.</li>
+        <li>I really like <a href="https://pappalou.ch">Pappa Lou</a> restaurant on the lake in Silvaplana and won't mind eating there every night.</li>
+        <li>When you stay more than two nights in the same place, you receive a regional travel card that also works for the mountain railways. I would really like to go up from Corvatsch one day after I've hiked my stage to visit <a href="fuorcla-surlej.html">Fuorcla Surlej</a>.</li>
+      </ol>
+      <br>
+      <img src="https://crazymilk.net/files/images/photos/fuorcla-surlej.webp" alt="Panorama view of high mountains, some of them with glaciers. Rocks and short green grass are in the foreground. The sky is blue with multiple puffy white clouds." width=960 height=266 loading="lazy" decoding="async" />
+      <p>I bought a new lightweight rain jacket (I've worn my previous one until it's rotting away), new trekking poles (I slipped and bent my old ones several years ago), and a pair of field binoculars, and I resoled my hiking boots. I'm really looking forward to this.</p>
+      ]]></description>
+    </item>
+
+    <item>
       <title>LEGO Set 10332: Medieval Town Square</title>
       <pubDate>Sun, 22 Dec 2024 11:21:27 +0100</pubDate>
       <guid>https://crazymilk.net/blog/lego-set-10332-medieval-town-square.html</guid>
@@ -113,17 +133,6 @@
       <description><![CDATA[
           <p>... by writing a short post about testing Mastodon author tags. It's all very <code>meta</code>. Quite literally because you add a <code>meta</code> tag with the <code>fediverse:creator</code> property to your HTML document's <code>head</code>.</p>
           <p>(Hat tip to David Chartier for <a href="https://toot.cafe/@chartier/113516479426771675">pointing me</a> to <a href="https://rknight.me/blog/setting-up-mastodon-author-tags/">Robb Knight's instructions</a>.)</p>
-      ]]></description>
-    </item>
-
-    <item>
-      <title>First Snow of Fall</title>
-      <pubDate>Wed, 20 Nov 2024 11:41:14 +0100</pubDate>
-      <guid>https://crazymilk.net/blog/first-snow-of-fall-2024.html</guid>
-      <link>https://crazymilk.net/blog/first-snow-of-fall-2024.html</link>
-      <description><![CDATA[
-          <img src="https://crazymilk.net/files/images/photos/first-snow-of-fall-2024.webp" alt="Bleak landscape photo of a trail through farm fields between three leafless fruit trees. Light snow is scattered on the ground, but you can still see the grass. Snow-covered hillsides can be seen in the distance where not obscured by low-lying clouds." width=960 height=540 loading="lazy" decoding="async" />
-          <p>I was only expecting rain this morning, not a wintry mix that turned into light snow. Tomorrow afternoon we have a level 3 (of 5) heavy snowfall warning. I need to get the winter tires put on the car.</p>
       ]]></description>
     </item>
 
