@@ -8,6 +8,23 @@
     <atom:link href="https://crazymilk.net/feed.xml" rel="self" type="application/rss+xml" />
 
     <item>
+      <title>Fantasy Basel 2025 x D&amp;D x LEGO</title>
+      <pubDate>9 June 2025 10:33:38 +0200</pubDate>
+      <guid>https://crazymilk.net/blog/fantasy-basel-2025-dnd-lego.html</guid>
+      <link>https://crazymilk.net/blog/fantasy-basel-2025-dnd-lego.html</link>
+      <description><![CDATA[
+      <img src="https://crazymilk.net/files/images/photos/fantasy-basel-2025-dnd-lego.webp" alt="LEGO Dungeons and Dragons set 21348 topped with a red LEGO dragon on a wooden table next to some bags of dice and character sheets." width=960 height=720 loading="lazy" decoding="async" />
+      <p>On the final weekend of May I combined my love for LEGO and D&amp;D when I attended the <a href="https://fantasybasel.ch/en">Fantasy Basel</a> convention and ran four two-hour D&amp;D games using a <a href="https://brickset.com/sets/21348-1/Dungeons-Dragons-Red-Dragon-s-Tale">LEGO set</a> as a battle map and LEGO minifigures as the miniatures. (This was part of a volunteer effort by <a href="https://swissrpg.ch">Swiss RPG</a> that ran 63 two-hour games for 315 attendees over three days.) Everyone seemed to have a good time, so yay!</p>
+      <p>I went into this not knowing whether this was a terrible idea or not, but the <a href="https://media.dndbeyond.com/compendium-images/marketing/lego/red-dragons-tale.pdf">published one-shot</a> worked pretty well for a 2-hour conference setting and every time the group was able to at least reach the final encounter with the evil sorcerer and the dragon within two hours. I definitely improved at running it with each play-through. I think I might try to run it again at <a href="https://herofest.ch/en">HeroFest</a> in Bern and/or <a href="https://www.zurichpopcon.ch/en">Zürich Pop Con</a> in the Fall.</p>
+      <img src="https://crazymilk.net/files/images/photos/fantasy-basel-2025-minifigs.webp" alt="Six LEGO minifig adventurers lined up in front of LEGO set 2138. From left-to-right they are: elf wizard, dwarf cleric, orc rogue, gnome fighter, half-elf bard, and tiefling warlock" width=960 height=540 loading="lazy" decoding="async" />
+      <img src="https://crazymilk.net/files/images/photos/fantasy-basel-2025-tavern.webp" alt="" width=960 height=540 loading="lazy" decoding="async" />
+      <img src="https://crazymilk.net/files/images/photos/fantasy-basel-2025-monsters.webp" alt="Closeup of the tavern from LEGO set 21348 showing various drinks and food items" width=960 height=603 loading="lazy" decoding="async" />
+      <img src="https://crazymilk.net/files/images/photos/fantasy-basel-2025-skeletons.webp" alt="Three LEGO skeletons (equipped as rogue, wizard, and fighter) stand next to the orc rogue minifig" width=960 height=540 loading="lazy" decoding="async" />
+      <img src="https://crazymilk.net/files/images/photos/fantasy-basel-2025-mimics.webp" alt="Upstairs of the tavern from LEGO set 21348 featuring a mimic bed and mimic chest both with mouths open revealing sharp teeth" width=960 height=439 loading="lazy" decoding="async" />
+      ]]></description>
+    </item>
+
+    <item>
       <title>Via Engiadina Plans</title>
       <pubDate>Sun, 8 Jun 2025 16:20:17 +0200</pubDate>
       <guid>https://crazymilk.net/blog/via-engiadina-plans.html</guid>
@@ -122,17 +139,6 @@
       <description><![CDATA[
           <img src="https://crazymilk.net/files/images/photos/morning-walk-2024-11-21.webp" alt="Landscape view over partially snow-covered farm fields towards a lake. Beyond the lake are partially forested and partially snow-covered hills under a cloudy sky with chemtrails and some blue showing." width=960 height=540 loading="lazy" decoding="async" />
           <p>Lovely crisp -3°C morning in the Ägeri valley. More snow arrives this afternoon.</p>
-      ]]></description>
-    </item>
-
-    <item>
-      <title>Testing Mastodon Author Tags</title>
-      <pubDate>Wed, 20 Nov 2024 22:05:15 +0100</pubDate>
-      <guid>https://crazymilk.net/blog/testing-mastodon-author-tags.html</guid>
-      <link>https://crazymilk.net/blog/testing-mastodon-author-tags.html</link>
-      <description><![CDATA[
-          <p>... by writing a short post about testing Mastodon author tags. It's all very <code>meta</code>. Quite literally because you add a <code>meta</code> tag with the <code>fediverse:creator</code> property to your HTML document's <code>head</code>.</p>
-          <p>(Hat tip to David Chartier for <a href="https://toot.cafe/@chartier/113516479426771675">pointing me</a> to <a href="https://rknight.me/blog/setting-up-mastodon-author-tags/">Robb Knight's instructions</a>.)</p>
       ]]></description>
     </item>
 
